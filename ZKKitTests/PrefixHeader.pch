@@ -1,0 +1,12 @@
+/*
+   pch文件配置  TARGETS -> Build Settings -> Precomplile Prefix Header -> Yes
+                                        -> Prefix Header -> $(SRCROOT)/PCH相对路径（相对根路径）
+ 
+*/
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Config.h"
+
+#endif /* PrefixHeader_pch */
