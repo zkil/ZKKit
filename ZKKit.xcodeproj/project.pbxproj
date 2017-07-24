@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3828A3591F0652DC0017962E /* NSDateNSString+zk_Time.m in Sources */ = {isa = PBXBuildFile; fileRef = 3828A3581F0652DC0017962E /* NSDateNSString+zk_Time.m */; };
+		3827D3371F25A69300D7DA5E /* NSDate+zk_Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3827D3361F25A69300D7DA5E /* NSDate+zk_Additions.m */; };
+		3827D33A1F25C90900D7DA5E /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3827D3391F25C90900D7DA5E /* UIColor+Hex.m */; };
+		3828A3591F0652DC0017962E /* NSString+zk_Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3828A3581F0652DC0017962E /* NSString+zk_Additions.m */; };
+		384E429A1F17146800DB2B6F /* UIViewController+zk_Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 384E42991F17146800DB2B6F /* UIViewController+zk_Additions.m */; };
 		3858083F1F04F5C500219690 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3858083E1F04F5C500219690 /* main.m */; };
 		385808421F04F5C500219690 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 385808411F04F5C500219690 /* AppDelegate.m */; };
 		385808451F04F5C500219690 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385808441F04F5C500219690 /* ViewController.m */; };
@@ -38,8 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3828A3571F0652DC0017962E /* NSDateNSString+zk_Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateNSString+zk_Time.h"; sourceTree = "<group>"; };
-		3828A3581F0652DC0017962E /* NSDateNSString+zk_Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateNSString+zk_Time.m"; sourceTree = "<group>"; };
+		3827D3351F25A69300D7DA5E /* NSDate+zk_Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+zk_Additions.h"; sourceTree = "<group>"; };
+		3827D3361F25A69300D7DA5E /* NSDate+zk_Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+zk_Additions.m"; sourceTree = "<group>"; };
+		3827D3381F25C90900D7DA5E /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		3827D3391F25C90900D7DA5E /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		3828A3571F0652DC0017962E /* NSString+zk_Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+zk_Additions.h"; sourceTree = "<group>"; };
+		3828A3581F0652DC0017962E /* NSString+zk_Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+zk_Additions.m"; sourceTree = "<group>"; };
+		384E42981F17146800DB2B6F /* UIViewController+zk_Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+zk_Additions.h"; sourceTree = "<group>"; };
+		384E42991F17146800DB2B6F /* UIViewController+zk_Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+zk_Additions.m"; sourceTree = "<group>"; };
 		3858083A1F04F5C500219690 /* ZKKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3858083E1F04F5C500219690 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		385808401F04F5C500219690 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -181,8 +190,14 @@
 		385808711F04F92900219690 /* Categate */ = {
 			isa = PBXGroup;
 			children = (
-				3828A3571F0652DC0017962E /* NSDateNSString+zk_Time.h */,
-				3828A3581F0652DC0017962E /* NSDateNSString+zk_Time.m */,
+				3827D3381F25C90900D7DA5E /* UIColor+Hex.h */,
+				3827D3391F25C90900D7DA5E /* UIColor+Hex.m */,
+				3828A3571F0652DC0017962E /* NSString+zk_Additions.h */,
+				3828A3581F0652DC0017962E /* NSString+zk_Additions.m */,
+				384E42981F17146800DB2B6F /* UIViewController+zk_Additions.h */,
+				384E42991F17146800DB2B6F /* UIViewController+zk_Additions.m */,
+				3827D3351F25A69300D7DA5E /* NSDate+zk_Additions.h */,
+				3827D3361F25A69300D7DA5E /* NSDate+zk_Additions.m */,
 			);
 			path = Categate;
 			sourceTree = "<group>";
@@ -436,8 +451,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				385808451F04F5C500219690 /* ViewController.m in Sources */,
-				3828A3591F0652DC0017962E /* NSDateNSString+zk_Time.m in Sources */,
+				3828A3591F0652DC0017962E /* NSString+zk_Additions.m in Sources */,
 				385808421F04F5C500219690 /* AppDelegate.m in Sources */,
+				384E429A1F17146800DB2B6F /* UIViewController+zk_Additions.m in Sources */,
+				3827D3371F25A69300D7DA5E /* NSDate+zk_Additions.m in Sources */,
+				3827D33A1F25C90900D7DA5E /* UIColor+Hex.m in Sources */,
 				3858083F1F04F5C500219690 /* main.m in Sources */,
 				3858087D1F04FDF800219690 /* HttpTool.m in Sources */,
 			);
