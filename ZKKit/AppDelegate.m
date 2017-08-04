@@ -16,8 +16,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //[self initialize];
+    
+    
     return YES;
+}
+
+- (void)initialize {
+    //导航栏颜色
+    [[UINavigationBar appearance] setBarTintColor:RGB(255, 102, 61)];
+    //导航栏标题颜色
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    //全局返回按钮箭头的颜色
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
 }
 
 

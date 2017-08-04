@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3827D3371F25A69300D7DA5E /* NSDate+zk_Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3827D3361F25A69300D7DA5E /* NSDate+zk_Additions.m */; };
-		3827D33A1F25C90900D7DA5E /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3827D3391F25C90900D7DA5E /* UIColor+Hex.m */; };
+		3827D33A1F25C90900D7DA5E /* UIColor+zk_Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3827D3391F25C90900D7DA5E /* UIColor+zk_Additions.m */; };
 		3828A3591F0652DC0017962E /* NSString+zk_Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3828A3581F0652DC0017962E /* NSString+zk_Additions.m */; };
+		384938C41F331B4500077010 /* ZKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 384938C31F331B4500077010 /* ZKBaseViewController.m */; };
+		384938C71F331CAE00077010 /* ZKBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 384938C61F331CAE00077010 /* ZKBaseTableViewController.m */; };
 		384E429A1F17146800DB2B6F /* UIViewController+zk_Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 384E42991F17146800DB2B6F /* UIViewController+zk_Additions.m */; };
 		3858083F1F04F5C500219690 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3858083E1F04F5C500219690 /* main.m */; };
 		385808421F04F5C500219690 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 385808411F04F5C500219690 /* AppDelegate.m */; };
@@ -20,6 +22,8 @@
 		385808581F04F5C600219690 /* ZKKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 385808571F04F5C600219690 /* ZKKitTests.m */; };
 		385808631F04F5C600219690 /* ZKKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 385808621F04F5C600219690 /* ZKKitUITests.m */; };
 		3858087D1F04FDF800219690 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3858087C1F04FDF800219690 /* HttpTool.m */; };
+		38609F871F345157005060BE /* ZKBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38609F861F345157005060BE /* ZKBaseTabBarController.m */; };
+		38609F8B1F345379005060BE /* AppDelegate+RemoteNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 38609F8A1F345379005060BE /* AppDelegate+RemoteNotification.m */; };
 		D43648B026E61FCDAFEA2BB3 /* Pods_ZKKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED47ABD89AD2DA5DE875F4E7 /* Pods_ZKKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,10 +47,14 @@
 /* Begin PBXFileReference section */
 		3827D3351F25A69300D7DA5E /* NSDate+zk_Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+zk_Additions.h"; sourceTree = "<group>"; };
 		3827D3361F25A69300D7DA5E /* NSDate+zk_Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+zk_Additions.m"; sourceTree = "<group>"; };
-		3827D3381F25C90900D7DA5E /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
-		3827D3391F25C90900D7DA5E /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		3827D3381F25C90900D7DA5E /* UIColor+zk_Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+zk_Additions.h"; sourceTree = "<group>"; };
+		3827D3391F25C90900D7DA5E /* UIColor+zk_Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+zk_Additions.m"; sourceTree = "<group>"; };
 		3828A3571F0652DC0017962E /* NSString+zk_Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+zk_Additions.h"; sourceTree = "<group>"; };
 		3828A3581F0652DC0017962E /* NSString+zk_Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+zk_Additions.m"; sourceTree = "<group>"; };
+		384938C21F331B4500077010 /* ZKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKBaseViewController.h; sourceTree = "<group>"; };
+		384938C31F331B4500077010 /* ZKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKBaseViewController.m; sourceTree = "<group>"; };
+		384938C51F331CAE00077010 /* ZKBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKBaseTableViewController.h; sourceTree = "<group>"; };
+		384938C61F331CAE00077010 /* ZKBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKBaseTableViewController.m; sourceTree = "<group>"; };
 		384E42981F17146800DB2B6F /* UIViewController+zk_Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+zk_Additions.h"; sourceTree = "<group>"; };
 		384E42991F17146800DB2B6F /* UIViewController+zk_Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+zk_Additions.m"; sourceTree = "<group>"; };
 		3858083A1F04F5C500219690 /* ZKKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +77,10 @@
 		385808791F04F99E00219690 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		3858087B1F04FDF800219690 /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
 		3858087C1F04FDF800219690 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		38609F851F345157005060BE /* ZKBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKBaseTabBarController.h; sourceTree = "<group>"; };
+		38609F861F345157005060BE /* ZKBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKBaseTabBarController.m; sourceTree = "<group>"; };
+		38609F891F345379005060BE /* AppDelegate+RemoteNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+RemoteNotification.h"; sourceTree = "<group>"; };
+		38609F8A1F345379005060BE /* AppDelegate+RemoteNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+RemoteNotification.m"; sourceTree = "<group>"; };
 		457CDB2A6437DD292AFEFF88 /* Pods-ZKKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZKKit/Pods-ZKKit.release.xcconfig"; sourceTree = "<group>"; };
 		95198081539B660D6C8C0BA5 /* Pods-ZKKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZKKit/Pods-ZKKit.debug.xcconfig"; sourceTree = "<group>"; };
 		ED47ABD89AD2DA5DE875F4E7 /* Pods_ZKKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZKKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +118,19 @@
 				ED47ABD89AD2DA5DE875F4E7 /* Pods_ZKKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		384938C11F331B3100077010 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				384938C21F331B4500077010 /* ZKBaseViewController.h */,
+				384938C31F331B4500077010 /* ZKBaseViewController.m */,
+				384938C51F331CAE00077010 /* ZKBaseTableViewController.h */,
+				384938C61F331CAE00077010 /* ZKBaseTableViewController.m */,
+				38609F851F345157005060BE /* ZKBaseTabBarController.h */,
+				38609F861F345157005060BE /* ZKBaseTabBarController.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		385808311F04F5C400219690 = {
@@ -190,8 +215,9 @@
 		385808711F04F92900219690 /* Categate */ = {
 			isa = PBXGroup;
 			children = (
-				3827D3381F25C90900D7DA5E /* UIColor+Hex.h */,
-				3827D3391F25C90900D7DA5E /* UIColor+Hex.m */,
+				38609F881F34519D005060BE /* AppDelegate */,
+				3827D3381F25C90900D7DA5E /* UIColor+zk_Additions.h */,
+				3827D3391F25C90900D7DA5E /* UIColor+zk_Additions.m */,
 				3828A3571F0652DC0017962E /* NSString+zk_Additions.h */,
 				3828A3581F0652DC0017962E /* NSString+zk_Additions.m */,
 				384E42981F17146800DB2B6F /* UIViewController+zk_Additions.h */,
@@ -221,6 +247,7 @@
 		385808741F04F93500219690 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				384938C11F331B3100077010 /* Base */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -254,6 +281,15 @@
 				3858087C1F04FDF800219690 /* HttpTool.m */,
 			);
 			path = Netword;
+			sourceTree = "<group>";
+		};
+		38609F881F34519D005060BE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				38609F891F345379005060BE /* AppDelegate+RemoteNotification.h */,
+				38609F8A1F345379005060BE /* AppDelegate+RemoteNotification.m */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 		AE6CD523D37B9FF0B2759D07 /* Pods */ = {
@@ -453,11 +489,15 @@
 				385808451F04F5C500219690 /* ViewController.m in Sources */,
 				3828A3591F0652DC0017962E /* NSString+zk_Additions.m in Sources */,
 				385808421F04F5C500219690 /* AppDelegate.m in Sources */,
+				38609F871F345157005060BE /* ZKBaseTabBarController.m in Sources */,
+				384938C41F331B4500077010 /* ZKBaseViewController.m in Sources */,
 				384E429A1F17146800DB2B6F /* UIViewController+zk_Additions.m in Sources */,
+				38609F8B1F345379005060BE /* AppDelegate+RemoteNotification.m in Sources */,
 				3827D3371F25A69300D7DA5E /* NSDate+zk_Additions.m in Sources */,
-				3827D33A1F25C90900D7DA5E /* UIColor+Hex.m in Sources */,
+				3827D33A1F25C90900D7DA5E /* UIColor+zk_Additions.m in Sources */,
 				3858083F1F04F5C500219690 /* main.m in Sources */,
 				3858087D1F04FDF800219690 /* HttpTool.m in Sources */,
+				384938C71F331CAE00077010 /* ZKBaseTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

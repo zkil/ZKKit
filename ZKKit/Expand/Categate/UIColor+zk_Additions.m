@@ -6,10 +6,10 @@
 //  Copyright © 2016年 sanchun. All rights reserved.
 //
 
-#import "UIColor+Hex.h"
+#import "UIColor+zk_Additions.h"
 #define DEFAULT_VOID_COLOR [UIColor whiteColor]
 
-@implementation UIColor (Hex)
+@implementation UIColor (zk_Hex)
 
 //字符串转颜色
 + (UIColor *)colorWithHexString:(NSString *)stringToConvert {
@@ -104,7 +104,7 @@
     return endtmp;
 }
 
--(NSString *)changeRGBString {
+-(NSString *)rgbString {
     return [[self class]rgbColorStingWith:self];
 }
 

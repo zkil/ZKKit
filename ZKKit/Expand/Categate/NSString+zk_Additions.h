@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 
+#pragma -mark- NSDate
 @interface NSString (zk_NSDate)
 
 
@@ -51,6 +52,24 @@
 
  @return 指定时间格式的字符串
  */
+
 - (NSString *)stringFormFormat:(NSString *)formFormat toFormat:(NSString *)toFormat;
 
 @end
+
+#pragma -mark- UIColor
+#import <UIKit/UIKit.h>
+@interface NSString (zk_UIColor)
+
+/**
+ UIColor 转16进制
+
+ @param color UIColor
+
+ @return 16bit String
+ */
++ (NSString *)rgbColorStingWith:(UIColor *)color;
+@end
+
+
+
