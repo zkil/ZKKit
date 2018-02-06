@@ -27,4 +27,9 @@
 - (void)showAlertWithMsg:(NSString *)msg;
 - (void)showAlertWithTitle:(NSString *)title andMsg:(NSString *)msg;
 
+- (MJRefreshNormalHeader *)createHeaderWithRefreshingTarget:(id)target refreshingAction:(SEL)action;
+- (MJRefreshBackNormalFooter *)createFooterWithRefreshingTarget:(id)target refreshingAction:(SEL)action;
+
+- (MJRefreshNormalHeader *)createRefrehHeaderBlock:(MJRefreshComponentRefreshingBlock)refreshingBlock;
+- (MJRefreshBackNormalFooter *)createRefreshFooterBlock:(MJRefreshComponentRefreshingBlock)refreshingBlock;
 @end

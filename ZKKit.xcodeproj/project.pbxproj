@@ -24,6 +24,10 @@
 		3858087D1F04FDF800219690 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3858087C1F04FDF800219690 /* HttpTool.m */; };
 		38609F871F345157005060BE /* ZKBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38609F861F345157005060BE /* ZKBaseTabBarController.m */; };
 		38609F8B1F345379005060BE /* AppDelegate+RemoteNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 38609F8A1F345379005060BE /* AppDelegate+RemoteNotification.m */; };
+		38A38823202996AF00DB6243 /* CALayer+zk_Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A38821202996AF00DB6243 /* CALayer+zk_Additions.m */; };
+		38A388282029974600DB6243 /* ZKBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A388272029974600DB6243 /* ZKBaseNavigationController.m */; };
+		38A3882B2029978400DB6243 /* ZKBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A388292029978300DB6243 /* ZKBaseTableViewController.m */; };
+		38A3882F202997A400DB6243 /* ZKAlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3882E202997A400DB6243 /* ZKAlertTool.m */; };
 		D43648B026E61FCDAFEA2BB3 /* Pods_ZKKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED47ABD89AD2DA5DE875F4E7 /* Pods_ZKKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +85,14 @@
 		38609F861F345157005060BE /* ZKBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKBaseTabBarController.m; sourceTree = "<group>"; };
 		38609F891F345379005060BE /* AppDelegate+RemoteNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+RemoteNotification.h"; sourceTree = "<group>"; };
 		38609F8A1F345379005060BE /* AppDelegate+RemoteNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+RemoteNotification.m"; sourceTree = "<group>"; };
+		38A38821202996AF00DB6243 /* CALayer+zk_Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+zk_Additions.m"; sourceTree = "<group>"; };
+		38A38822202996AF00DB6243 /* CALayer+zk_Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+zk_Additions.h"; sourceTree = "<group>"; };
+		38A388262029974500DB6243 /* ZKBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKBaseNavigationController.h; sourceTree = "<group>"; };
+		38A388272029974600DB6243 /* ZKBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKBaseNavigationController.m; sourceTree = "<group>"; };
+		38A388292029978300DB6243 /* ZKBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKBaseTableViewController.m; path = ../../../../../../../Documents/iosSvnWorkPlace/DwQueryPro/DwQueryPro/DwQueryPro/Main/Base/ZKBaseTableViewController.m; sourceTree = "<group>"; };
+		38A3882A2029978300DB6243 /* ZKBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKBaseTableViewController.h; path = ../../../../../../../Documents/iosSvnWorkPlace/DwQueryPro/DwQueryPro/DwQueryPro/Main/Base/ZKBaseTableViewController.h; sourceTree = "<group>"; };
+		38A3882D202997A400DB6243 /* ZKAlertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKAlertTool.h; sourceTree = "<group>"; };
+		38A3882E202997A400DB6243 /* ZKAlertTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKAlertTool.m; sourceTree = "<group>"; };
 		457CDB2A6437DD292AFEFF88 /* Pods-ZKKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZKKit/Pods-ZKKit.release.xcconfig"; sourceTree = "<group>"; };
 		95198081539B660D6C8C0BA5 /* Pods-ZKKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZKKit/Pods-ZKKit.debug.xcconfig"; sourceTree = "<group>"; };
 		ED47ABD89AD2DA5DE875F4E7 /* Pods_ZKKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZKKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,12 +135,8 @@
 		384938C11F331B3100077010 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				384938C21F331B4500077010 /* ZKBaseViewController.h */,
-				384938C31F331B4500077010 /* ZKBaseViewController.m */,
-				384938C51F331CAE00077010 /* ZKBaseTableViewController.h */,
-				384938C61F331CAE00077010 /* ZKBaseTableViewController.m */,
-				38609F851F345157005060BE /* ZKBaseTabBarController.h */,
-				38609F861F345157005060BE /* ZKBaseTabBarController.m */,
+				38A38825202996D900DB6243 /* View */,
+				38A38824202996C400DB6243 /* ViewController */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -158,12 +166,11 @@
 		3858083C1F04F5C500219690 /* ZKKit */ = {
 			isa = PBXGroup;
 			children = (
+				38A388302029990E00DB6243 /* AppDelegate */,
 				385808701F04F92900219690 /* Expand */,
 				385808741F04F93500219690 /* Main */,
 				385808751F04F93F00219690 /* Resoure */,
 				385808771F04F94700219690 /* Vender */,
-				385808401F04F5C500219690 /* AppDelegate.h */,
-				385808411F04F5C500219690 /* AppDelegate.m */,
 				385808431F04F5C500219690 /* ViewController.h */,
 				385808441F04F5C500219690 /* ViewController.m */,
 				385808461F04F5C500219690 /* Main.storyboard */,
@@ -188,7 +195,6 @@
 			children = (
 				385808571F04F5C600219690 /* ZKKitTests.m */,
 				385808591F04F5C600219690 /* Info.plist */,
-				385808791F04F99E00219690 /* PrefixHeader.pch */,
 			);
 			path = ZKKitTests;
 			sourceTree = "<group>";
@@ -218,6 +224,8 @@
 				38609F881F34519D005060BE /* AppDelegate */,
 				3827D3381F25C90900D7DA5E /* UIColor+zk_Additions.h */,
 				3827D3391F25C90900D7DA5E /* UIColor+zk_Additions.m */,
+				38A38822202996AF00DB6243 /* CALayer+zk_Additions.h */,
+				38A38821202996AF00DB6243 /* CALayer+zk_Additions.m */,
 				3828A3571F0652DC0017962E /* NSString+zk_Additions.h */,
 				3828A3581F0652DC0017962E /* NSString+zk_Additions.m */,
 				384E42981F17146800DB2B6F /* UIViewController+zk_Additions.h */,
@@ -231,6 +239,7 @@
 		385808721F04F92900219690 /* Macros */ = {
 			isa = PBXGroup;
 			children = (
+				385808791F04F99E00219690 /* PrefixHeader.pch */,
 				385808781F04F98900219690 /* Config.h */,
 			);
 			path = Macros;
@@ -239,6 +248,7 @@
 		385808731F04F92900219690 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				38A3882C202997A400DB6243 /* Alert */,
 				3858087A1F04FDF800219690 /* Netword */,
 			);
 			path = Tool;
@@ -288,6 +298,48 @@
 			children = (
 				38609F891F345379005060BE /* AppDelegate+RemoteNotification.h */,
 				38609F8A1F345379005060BE /* AppDelegate+RemoteNotification.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		38A38824202996C400DB6243 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				38A3882A2029978300DB6243 /* ZKBaseTableViewController.h */,
+				38A388292029978300DB6243 /* ZKBaseTableViewController.m */,
+				38A388262029974500DB6243 /* ZKBaseNavigationController.h */,
+				38A388272029974600DB6243 /* ZKBaseNavigationController.m */,
+				384938C21F331B4500077010 /* ZKBaseViewController.h */,
+				384938C31F331B4500077010 /* ZKBaseViewController.m */,
+				384938C51F331CAE00077010 /* ZKBaseTableViewController.h */,
+				384938C61F331CAE00077010 /* ZKBaseTableViewController.m */,
+				38609F851F345157005060BE /* ZKBaseTabBarController.h */,
+				38609F861F345157005060BE /* ZKBaseTabBarController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		38A38825202996D900DB6243 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		38A3882C202997A400DB6243 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				38A3882D202997A400DB6243 /* ZKAlertTool.h */,
+				38A3882E202997A400DB6243 /* ZKAlertTool.m */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		38A388302029990E00DB6243 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				385808401F04F5C500219690 /* AppDelegate.h */,
+				385808411F04F5C500219690 /* AppDelegate.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -489,15 +541,19 @@
 				385808451F04F5C500219690 /* ViewController.m in Sources */,
 				3828A3591F0652DC0017962E /* NSString+zk_Additions.m in Sources */,
 				385808421F04F5C500219690 /* AppDelegate.m in Sources */,
+				38A3882F202997A400DB6243 /* ZKAlertTool.m in Sources */,
 				38609F871F345157005060BE /* ZKBaseTabBarController.m in Sources */,
 				384938C41F331B4500077010 /* ZKBaseViewController.m in Sources */,
 				384E429A1F17146800DB2B6F /* UIViewController+zk_Additions.m in Sources */,
 				38609F8B1F345379005060BE /* AppDelegate+RemoteNotification.m in Sources */,
+				38A38823202996AF00DB6243 /* CALayer+zk_Additions.m in Sources */,
 				3827D3371F25A69300D7DA5E /* NSDate+zk_Additions.m in Sources */,
 				3827D33A1F25C90900D7DA5E /* UIColor+zk_Additions.m in Sources */,
 				3858083F1F04F5C500219690 /* main.m in Sources */,
 				3858087D1F04FDF800219690 /* HttpTool.m in Sources */,
 				384938C71F331CAE00077010 /* ZKBaseTableViewController.m in Sources */,
+				38A388282029974600DB6243 /* ZKBaseNavigationController.m in Sources */,
+				38A3882B2029978400DB6243 /* ZKBaseTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -649,7 +705,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C2Y8Q3RAAW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/ZKKitTests/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZKKit/Expand/Macros/PrefixHeader.pch";
 				INFOPLIST_FILE = ZKKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -665,7 +721,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C2Y8Q3RAAW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/ZKKitTests/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZKKit/Expand/Macros/PrefixHeader.pch";
 				INFOPLIST_FILE = ZKKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

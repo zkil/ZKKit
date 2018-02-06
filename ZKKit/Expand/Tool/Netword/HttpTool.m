@@ -41,7 +41,7 @@
         if (serializationError == nil) {
             success(task,jsonObject);
         }else {
-            failure(dataTask,serializationError);
+            failure(task,serializationError);
         }
         
     } failure:failure];
@@ -64,7 +64,7 @@
         if (serializationError == nil) {
             success(task,jsonObject);
         }else {
-            failure(dataTask,serializationError);
+            failure(task,serializationError);
         }
         
     } failure:failure];

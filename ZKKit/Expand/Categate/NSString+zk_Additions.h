@@ -12,16 +12,15 @@
 #pragma -mark- NSDate
 @interface NSString (zk_NSDate)
 
-
 /**
  获取NSDate
-
+ 
  @param format 自身的时间格式
-
+ 
  @return NSDate
  */
-- (NSDate *)dateWithFormat:(NSString *)format;
 
+- (NSDate *)dateWithFormat:(NSString *)format;
 
 /**
  获取阳历的时间组件

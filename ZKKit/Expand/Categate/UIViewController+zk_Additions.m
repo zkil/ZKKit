@@ -109,7 +109,43 @@
         viewC = self;
     }
     
-    return nil;
+    return viewC;
+}
+
+- (MJRefreshNormalHeader *)createHeaderWithRefreshingTarget:(id)target refreshingAction:(SEL)action {
+    
+    MJRefreshNormalHeader *refreshHeader = [MJRefreshNormalHeader headerWithRefreshingTarget:target refreshingAction:action];
+    refreshHeader.lastUpdatedTimeLabel.hidden = YES;
+    [refreshHeader setTitle:NSLocalizedString(@"下拉刷新", nil) forState:MJRefreshStateIdle];
+    [refreshHeader setTitle:NSLocalizedString(@"松开刷新", nil) forState:MJRefreshStatePulling];
+    [refreshHeader setTitle:NSLocalizedString(@"加载中...", nil) forState:MJRefreshStateRefreshing];
+    return refreshHeader;
+}
+
+- (MJRefreshBackNormalFooter *)createFooterWithRefreshingTarget:(id)target refreshingAction:(SEL)action {
+    MJRefreshBackNormalFooter *refreshFooter = [MJRefreshBackNormalFooter footerWithRefreshingTarget:target refreshingAction:action];
+    [refreshFooter setTitle:NSLocalizedString(@"上拉加载更多", nil) forState:MJRefreshStateIdle];
+    [refreshFooter setTitle:NSLocalizedString(@"松开加载更多", nil) forState:MJRefreshStatePulling];
+    [refreshFooter setTitle:NSLocalizedString(@"加载中...", nil) forState:MJRefreshStateRefreshing];
+    return refreshFooter;
+}
+
+- (MJRefreshNormalHeader *)createRefrehHeaderBlock:(MJRefreshComponentRefreshingBlock)refreshingBlock {
+
+    MJRefreshNormalHeader *refreshHeader = [MJRefreshNormalHeader headerWithRefreshingBlock:refreshingBlock];
+    refreshHeader.lastUpdatedTimeLabel.hidden = YES;
+    [refreshHeader setTitle:NSLocalizedString(@"下拉刷新", nil) forState:MJRefreshStateIdle];
+    [refreshHeader setTitle:NSLocalizedString(@"松开刷新", nil) forState:MJRefreshStatePulling];
+    [refreshHeader setTitle:NSLocalizedString(@"加载中...", nil) forState:MJRefreshStateRefreshing];
+    return refreshHeader;
+}
+
+- (MJRefreshBackNormalFooter *)createRefreshFooterBlock:(MJRefreshComponentRefreshingBlock)refreshingBlock {
+    MJRefreshBackNormalFooter *refreshFooter = [MJRefreshBackNormalFooter footerWithRefreshingBlock:refreshingBlock];
+    [refreshFooter setTitle:NSLocalizedString(@"上拉加载更多", nil) forState:MJRefreshStateIdle];
+    [refreshFooter setTitle:NSLocalizedString(@"松开加载更多", nil) forState:MJRefreshStatePulling];
+    [refreshFooter setTitle:NSLocalizedString(@"加载中...", nil) forState:MJRefreshStateRefreshing];
+    return refreshFooter;
 }
 
 @end
