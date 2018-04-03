@@ -8,7 +8,7 @@
 
 #import "ZKBaseNavigationController.h"
 
-@interface ZKBaseNavigationController ()
+@interface ZKBaseNavigationController ()<UIGestureRecognizerDelegate>
 
 @end
 
@@ -18,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    
+    self.interactivePopGestureRecognizer.delegate = self;
 }
 
 - (BOOL) shouldAutorotate {
@@ -34,13 +36,27 @@
 
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
-    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
-    viewController.navigationItem.backBarButtonItem = backItem;
+    if (self.viewControllers.count != 0) {
+        UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"icon_back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(backAction)];
+        viewController.navigationItem.leftBarButtonItem = backItem;
+    }
     [super pushViewController:viewController animated:animated];
     
     CGRect frame = self.tabBarController.tabBar.frame;
     frame.origin.y = [UIScreen mainScreen].bounds.size.height - frame.size.height;
     self.tabBarController.tabBar.frame = frame;
+}
+
+- (void)backAction {
+    [self popViewControllerAnimated:YES];
+}
+
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer {
+    if (self.viewControllers.count == 1) {
+        return NO;
+    } else {
+        return YES;
+    }
 }
 
 - (void)didReceiveMemoryWarning {

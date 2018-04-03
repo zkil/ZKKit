@@ -24,10 +24,12 @@
 		3858087D1F04FDF800219690 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3858087C1F04FDF800219690 /* HttpTool.m */; };
 		38609F871F345157005060BE /* ZKBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38609F861F345157005060BE /* ZKBaseTabBarController.m */; };
 		38609F8B1F345379005060BE /* AppDelegate+RemoteNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 38609F8A1F345379005060BE /* AppDelegate+RemoteNotification.m */; };
+		387A5AD9202D8B1300120AE3 /* UITextField+zk_Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 387A5AD8202D8B1300120AE3 /* UITextField+zk_Additions.m */; };
 		38A38823202996AF00DB6243 /* CALayer+zk_Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A38821202996AF00DB6243 /* CALayer+zk_Additions.m */; };
 		38A388282029974600DB6243 /* ZKBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A388272029974600DB6243 /* ZKBaseNavigationController.m */; };
 		38A3882B2029978400DB6243 /* ZKBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A388292029978300DB6243 /* ZKBaseTableViewController.m */; };
 		38A3882F202997A400DB6243 /* ZKAlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3882E202997A400DB6243 /* ZKAlertTool.m */; };
+		38A38909202AF96000DB6243 /* UIImage+zk_Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A38908202AF96000DB6243 /* UIImage+zk_Additions.m */; };
 		D43648B026E61FCDAFEA2BB3 /* Pods_ZKKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED47ABD89AD2DA5DE875F4E7 /* Pods_ZKKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +87,8 @@
 		38609F861F345157005060BE /* ZKBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKBaseTabBarController.m; sourceTree = "<group>"; };
 		38609F891F345379005060BE /* AppDelegate+RemoteNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+RemoteNotification.h"; sourceTree = "<group>"; };
 		38609F8A1F345379005060BE /* AppDelegate+RemoteNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+RemoteNotification.m"; sourceTree = "<group>"; };
+		387A5AD7202D8B1300120AE3 /* UITextField+zk_Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+zk_Additions.h"; sourceTree = "<group>"; };
+		387A5AD8202D8B1300120AE3 /* UITextField+zk_Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+zk_Additions.m"; sourceTree = "<group>"; };
 		38A38821202996AF00DB6243 /* CALayer+zk_Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+zk_Additions.m"; sourceTree = "<group>"; };
 		38A38822202996AF00DB6243 /* CALayer+zk_Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+zk_Additions.h"; sourceTree = "<group>"; };
 		38A388262029974500DB6243 /* ZKBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKBaseNavigationController.h; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 		38A3882A2029978300DB6243 /* ZKBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKBaseTableViewController.h; path = ../../../../../../../Documents/iosSvnWorkPlace/DwQueryPro/DwQueryPro/DwQueryPro/Main/Base/ZKBaseTableViewController.h; sourceTree = "<group>"; };
 		38A3882D202997A400DB6243 /* ZKAlertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKAlertTool.h; sourceTree = "<group>"; };
 		38A3882E202997A400DB6243 /* ZKAlertTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKAlertTool.m; sourceTree = "<group>"; };
+		38A38907202AF96000DB6243 /* UIImage+zk_Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+zk_Additions.h"; sourceTree = "<group>"; };
+		38A38908202AF96000DB6243 /* UIImage+zk_Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+zk_Additions.m"; sourceTree = "<group>"; };
 		457CDB2A6437DD292AFEFF88 /* Pods-ZKKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZKKit/Pods-ZKKit.release.xcconfig"; sourceTree = "<group>"; };
 		95198081539B660D6C8C0BA5 /* Pods-ZKKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZKKit/Pods-ZKKit.debug.xcconfig"; sourceTree = "<group>"; };
 		ED47ABD89AD2DA5DE875F4E7 /* Pods_ZKKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZKKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -232,6 +238,10 @@
 				384E42991F17146800DB2B6F /* UIViewController+zk_Additions.m */,
 				3827D3351F25A69300D7DA5E /* NSDate+zk_Additions.h */,
 				3827D3361F25A69300D7DA5E /* NSDate+zk_Additions.m */,
+				38A38907202AF96000DB6243 /* UIImage+zk_Additions.h */,
+				38A38908202AF96000DB6243 /* UIImage+zk_Additions.m */,
+				387A5AD7202D8B1300120AE3 /* UITextField+zk_Additions.h */,
+				387A5AD8202D8B1300120AE3 /* UITextField+zk_Additions.m */,
 			);
 			path = Categate;
 			sourceTree = "<group>";
@@ -539,10 +549,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				385808451F04F5C500219690 /* ViewController.m in Sources */,
+				38A38909202AF96000DB6243 /* UIImage+zk_Additions.m in Sources */,
 				3828A3591F0652DC0017962E /* NSString+zk_Additions.m in Sources */,
 				385808421F04F5C500219690 /* AppDelegate.m in Sources */,
 				38A3882F202997A400DB6243 /* ZKAlertTool.m in Sources */,
 				38609F871F345157005060BE /* ZKBaseTabBarController.m in Sources */,
+				387A5AD9202D8B1300120AE3 /* UITextField+zk_Additions.m in Sources */,
 				384938C41F331B4500077010 /* ZKBaseViewController.m in Sources */,
 				384E429A1F17146800DB2B6F /* UIViewController+zk_Additions.m in Sources */,
 				38609F8B1F345379005060BE /* AppDelegate+RemoteNotification.m in Sources */,

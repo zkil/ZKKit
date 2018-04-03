@@ -11,6 +11,7 @@
 
 
 @interface ZKBaseViewController : UIViewController
-
 @property (nonatomic,strong) MBProgressHUD *hud;
+
+
 @end
